@@ -13,7 +13,9 @@ import os
 # =========================================================================
 # Path to your high-accuracy CNN model weights (H5 is the format saved in Colab)
 # Streamlit will find this file in the root of your GitHub repo.
-WEIGHTS_PATH = "traffic_sign_model_cnn.h5" 
+# Path to your high-accuracy CNN model weights (H5 is the format saved in Colab)
+# Streamlit will find this file in the root of your GitHub repo.
+WEIGHTS_PATH = "traffic_sign_model_cnn.h5"
 IMG_SIZE = (64, 64)
 NUM_CLASSES = 85
 
